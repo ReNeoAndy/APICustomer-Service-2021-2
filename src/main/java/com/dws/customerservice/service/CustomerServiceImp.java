@@ -1,0 +1,46 @@
+package com.dws.customerservice.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.dws.customerservice.dto.Customer;
+import com.dws.customerservice.dto.RespuestaApi;
+import com.dws.customerservice.repository.CustomerRepository;
+@Service
+public class CustomerServiceImp implements CustomerService {
+	@Autowired
+    CustomerRepository customerRepository;
+
+	@Override
+	public List<Customer> getCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer getCustomer(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public RespuestaApi createCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public RespuestaApi updateCustomer(Customer customer, int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public RespuestaApi deleteCustomer(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
